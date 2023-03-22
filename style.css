@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrap{
+    width: auto;
+    height: 100vh;
+    margin: 50px;
+    display: flex;
+    background-color: rgb(206, 216, 224);
+}
+
+.foto{
+    width: 25%;
+    margin: 10px;
+    
+}
+.isi-foto{
+    width: 120px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 15px;
+    margin-left: 28%;
+    background-color: grey;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+span{
+    margin-left: 45%;
+}
+
+.btn-foto{
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(223, 137, 9);
+    margin-top: 10px;
+    margin-left: 35%;
+}
+
+.input{
+    width: 75%;
+    margin: 10px;
+
+}
+
+.biodata{
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tempat-lahir{
+    width: 75%;
+   
+}
+.tanggal-lahir{
+    width: 25%;
+    height: 50px;
+    border-left: 2px solid grey;
+    
+}
+
+.radio{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    
+    display: flex;
+}
+
+.sp {
+    margin-left: 50px;
+    border-left: 2px solid grey;
+}
+.kn{
+    margin-left: 110px;
+    border-left: 2px solid grey;
+}
+
+.apn{
+display: flex;
+}
+
+.agama{
+    cursor: pointer;
+    width: 230px;
+}
+
+.pekerjaan{
+    margin-left: 45px;
+    width: 43%;
+    border-left: 2px solid grey;
+}
+
+.nohp{
+    margin-left: 25px;
+    border-left: 2px solid grey;
+}
+
+.textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.provinsi{
+    width: 100%;
+}

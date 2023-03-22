@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didit Aditya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="input">
+            <p>Nama Lengkap</p>
+            <input type="text" style="width: 98%; ">
+            <div class="biodata">
+                <div class="tempat-lahir">
+                    <p style="margin-top: 5px;">Tempat Lahir</p>
+                    <input type="text" style="width: 97%; ">
+                </div>
+                <div class="tanggal-lahir">
+                    <p style="margin-top: 5px;margin-left: 15px;">Tgl.Lahir</p>
+                    <input type="text" style="width: 85%;margin-left: 15px; ">
+                </div>
+            </div>
+            <div class="radio">
+                <div class="jk">
+                    <p>Jenis Kelamin</p>
+                    <input type="radio" name="jk" value="laki"><label for="laki"> LAKI - LAKI</label>
+                    <input type="radio" name="jk" value="wadon"><label for="wadon"> PEREMPUAN</label>
+                </div>
+                <div class="sp">
+                    <p style="margin-left: 20px;">Status Perkawinan</p>
+                    <input type="radio" name="sp" value="kawin" style="margin-left: 20px;"><label for="laki"> KAWIN</label>
+                    <input type="radio" name="sp" value="belumkawin"><label for="belumkawin"> BELUM KAWIN</label>
+                </div>
+                <div class="kn">
+                    <p style="margin-left: 20px">Kewarganegaraan</p>
+                    <input type="radio" name="kn" value="wni" style="margin-left: 20px"><label for="wni">  WNI</label>
+                    <input type="radio" name="kn" value="wna"><label for="wna"> WNA</label>
+                </div>
+            </div>
+            <div class="apn">
+                <div class="agama">
+                    <p>Agama</p>
+                    <select style="width:100%;">
+                        <option value="Islam" selected>PILIH AGAMA</option>
+                        <option value="Islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="Budha">Budha</option>
+                    </select>
+                </div>
+                <div class="pekerjaan">
+                    <p style="margin-left: 20px">pekerjaan</p>
+                    <input type="text" style="width: 90%;margin-left: 15px;"style="margin-left: 20px;">
+                </div>
+                <div class="nohp">
+                    <p style="margin-left: 20px">No.Telp/Hp</p>
+                    <input type="text" style="width: 94%;margin-left: 15px;"style="margin-left: 20px;">
+                </div>
+            </div>
+            <div class="textarea">
+                <p>Alamat (Saat ini)</p>
+                <textarea name="" id="" cols="124" rows="5"></textarea>
+            </div>
+            <div class="provinsi">
+                <p>Provinsi (Saat ini)</p>
+                <select style="width: 98.5%;">
+                <option value="PILIH PROVINSI" selected>PILIH PROVINSI</option><option value="Jabar">
+                    Jawa Barat
+                </option>
+                <option value="jatim">Jawa Timur</option><option value="jateng">Jawa Tengah</option>
+            </select>
+            </div>
+            <div class="kota">
+                <p>Kabupaten/Kota (Saat ini)</p>
+                <select style="width: 98.5%; background-color: gray;" >
+                <option value="PILIH PROVINSI" selected>PILIH KABUPATEN/KOTA</option><option value="Jabar">
+                    Cirebon
+                </option>
+                <option value="jatim">Subang</option><option value="jateng">Indramayu</option>
+            </select>
+            </div>
+            <div class="kecamatan">
+                <p>kecamatan (Saat ini)</p>
+                <select style="width: 98.5%; background-color: gray;" >
+                <option value="PILIH KECAMATAN" selected>PILIH KECAMATAN</option><option value="pabuaran">
+                    Pabuaran
+                </option>
+                <option value="waled">Waled</option><option value="babakan">Babakan</option>
+            </select>
+            </div>
+            <div class="kelurahan">
+                <p>Kelurahan (Saat ini)</p>
+                <select style="width: 98.5%; background-color: gray;" >
+                <option value="PILIH PROVINSI" selected>PILIH Kelurahan</option><option value="Jabar">
+                    Sukadana
+                </option>
+                <option value="jatim">Paburan Lor</option><option value="jateng">Paburan Kidul</option>
+            </select>
+            </div>
+            <p style="margin-top: 20px;">No. Idendtitas</p>
+            <div style="display: flex;">
+                <select style="width: 8%; background-color: gray;" >
+                <option value="PILIH" selected>PILIH</option><option value="Jabar">
+                    KTP
+                </option>
+                <option value="jatim">Password</option><option value="jateng">Kartu Pelajar</option>
+                </select>
+                <input type="text" style="margin-left: 20px;">
+                <div style="border-left: 2px solid grey; margin-left: 20px;">
+                <p style="margin-left: 20px;">No.Paspor</p>
+                <input type="text" style="margin-left: 20px;">
+            </div>
+            </div>
+        </div>
+        <div class="foto">
+            <span>Foto</span>
+            <div class="isi-foto"> 4 X 6 </div>
+            <button class="btn-foto">PILIH FOTO</button>
+        </div>
+    </div>
+    <footer style="display: flex; ">
+        <button style="background-color: red;color: white; border: none; padding: 10px; margin-bottom: 20px; margin-left: 10px;">BATALKAN</button>
+        <p style="margin-left: 80%;"><b>KEMBALI</b></p>
+        <button style="background-color: gray; color: black; border: 1px solid blue; padding: 10px; margin-left: 10px;margin-bottom: 20px;">LANJUT</button>
+    </footer>
+</body>
+</html>
