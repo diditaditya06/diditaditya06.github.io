@@ -1,2 +1,2 @@
 # input.github.io
-link : https://github.com/diditaditya06/input.github.io
+link : https://diditaditya06.github.io/input.github.io/
